@@ -1,0 +1,74 @@
+.title {
+  font-size: 35px;
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: bold;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 15px;
+  background-image: url("./../img/BG.png");
+  background-size: cover;
+}
+.message {
+  padding: 5px 0;
+  height: 800px;
+  width: 600px;
+  border: 3px solid#D4D3D3;
+  background-color: #B6FAF3;
+}
+.title,
+.message,
+.message__form {
+  margin: auto;
+}
+.message {
+  flex-shrink: 1;
+  overflow: auto;
+}
+.message div p {
+  display: inline;
+}
+.message div p:first-child {
+  font-weight: bold;
+}
+.message div p:nth-child(2) {
+  font-style: italic;
+}
+.message__form {
+  margin-top: 5px;
+  width: 600px;
+  border: 3px solid#D4D3D3;
+  display: flex;
+  flex-shrink: 0;
+}
+.message__form__input {
+  flex-grow: 1;
+  border: 1px solid #dfdfdf;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.message__form__button {
+  background-color:#44c767;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.message__form__input{
+  background-color: #6CFFEF;
+}
+
+#student {
+  font-variant: small-caps;
+  font-weight: bold;
+  margin: 10px;
+}
